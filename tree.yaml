@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks:
-  - name: I want to install tree
+  - name: I want to uninstall tree
     apt:
       name: tree
-      state: present 
+      state: absent
