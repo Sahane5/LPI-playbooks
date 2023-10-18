@@ -6,3 +6,13 @@
     apt: 
       name: tree
       state: present
+
+  - name: installing wget
+    apt:
+      name: wget
+      state: present
+
+  - name: installing curl
+    apt:
+      name: curl
+      state: present
