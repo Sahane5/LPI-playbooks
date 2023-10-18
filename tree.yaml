@@ -6,3 +6,8 @@
     apt:
       name: tree
       state: absent
+  
+  - name: install apache2
+    apt:
+      name: apache2
+      state: absent
